@@ -44,7 +44,7 @@ function draw() {
     textSize(20);
     text("Use Arrow keys to set Direction (<-- , -->)",20,20);
     text("Press Up Arrow Key to load the Tanker",20,45);
-    text("Press Down Arrow Key to load the Tanker",20,70);
+    text("Press Down Arrow Key to shoot the ball",20,70);
     
     if (keyIsDown(UP_ARROW)) {
         shot.attach(canonBall.body)
